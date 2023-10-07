@@ -1,0 +1,119 @@
+/* Global styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.5);
+}
+/* Styling for the header section */
+header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: goldenrod;
+    color: white;
+    padding: 20px;
+    height: 80px;
+    width:100%;
+}
+/* Styling for the header's h1 element */
+header h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+/* Styling for the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* Styling for each navigation menu item */
+nav ul li {
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+/* Styling for navigation menu links */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* Styling for the main content section's heading */
+main h2{
+    text-align: center;
+    color: #f4f4f4;
+    padding: 5px;
+}
+/* Styling for the form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+/* Styling for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* Styling for input fields and select dropdowns */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Styling for the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #555;
+}
+/* Reset default table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Table header styles */
+th {
+    background-color: #333;
+    color: black;
+    font-weight: bold;
+}
+
+/* Table cell styles */
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #ddd;
+}
